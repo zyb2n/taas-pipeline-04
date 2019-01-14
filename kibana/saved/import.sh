@@ -1,4 +1,5 @@
 #!/bin/bash 
+set -x
 
 KIBANA_URL="http://report-kibana:443"
 #KIBANA_URL="http://127.0.0.1:5601"
