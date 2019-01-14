@@ -1,0 +1,18 @@
+{
+  "title": "TaaS-dashboard-02",
+  "hits": 0,
+  "description": "",
+  "panelsJSON": "[{\"panelIndex\":\"1\",\"gridData\":{\"x\":0,\"y\":25,\"w\":48,\"h\":21,\"i\":\"1\"},\"embeddableConfig\":{},\"id\":\"5040ec30-0fda-11e9-8a8f-37b22cc628f1\",\"type\":\"visualization\",\"version\":\"6.5.2\"},{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":0,\"w\":48,\"h\":12,\"i\":\"2\"},\"embeddableConfig\":{},\"id\":\"856893a0-1042-11e9-9add-abbb4102b3f4\",\"type\":\"visualization\",\"version\":\"6.3.1\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":0,\"y\":12,\"w\":48,\"h\":13,\"i\":\"3\"},\"version\":\"6.3.1\",\"type\":\"visualization\",\"id\":\"9e36ba60-1047-11e9-9add-abbb4102b3f4\",\"embeddableConfig\":{}}]",
+  "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+  "version": 1,
+  "timeRestore": true,
+  "timeTo": "now",
+  "timeFrom": "now-7d",
+  "refreshInterval": {
+    "pause": true,
+    "value": 0
+  },
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+  }
+}

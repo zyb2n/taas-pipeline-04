@@ -1,0 +1,10 @@
+{
+  "title": "status_gauge",
+  "visState": "{\"title\":\"status_gauge\",\"type\":\"gauge\",\"params\":{\"type\":\"gauge\",\"addTooltip\":true,\"addLegend\":true,\"isDisplayWarning\":false,\"gauge\":{\"verticalSplit\":false,\"extendRange\":true,\"percentageMode\":false,\"gaugeType\":\"Arc\",\"gaugeStyle\":\"Full\",\"backStyle\":\"Full\",\"orientation\":\"vertical\",\"colorSchema\":\"Greens\",\"gaugeColorMode\":\"Labels\",\"colorsRange\":[{\"from\":0,\"to\":500},{\"from\":500,\"to\":750},{\"from\":750,\"to\":2000}],\"invertColors\":false,\"labels\":{\"show\":true,\"color\":\"black\"},\"scale\":{\"show\":true,\"labels\":false,\"color\":\"#333\"},\"type\":\"meter\",\"style\":{\"bgWidth\":0.9,\"width\":0.9,\"mask\":false,\"bgMask\":false,\"maskBars\":50,\"bgFill\":\"#eee\",\"bgColor\":false,\"subText\":\"\",\"fontSize\":60,\"labelColor\":true}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"status.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"otherBucket\":false,\"otherBucketLabel\":\"Other\",\"missingBucket\":false,\"missingBucketLabel\":\"Missing\",\"customLabel\":\"status\"}}]}",
+  "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 500\":\"rgb(247,252,245)\",\"500 - 750\":\"rgb(116,196,118)\",\"750 - 2000\":\"rgb(0,68,27)\"}}}",
+  "description": "",
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"66ee7900-15d6-11e9-91b7-85b94b9c37ae\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "taas-search",
+  "description": "",
+  "hits": 0,
+  "columns": [
+    "platform.name",
+    "platform.release",
+    "start_time",
+    "status",
+    "code_desc",
+    "target",
+    "impact"
+  ],
+  "sort": [
+    "start_time",
+    "desc"
+  ],
+  "version": 1,
+  "kibanaSavedObjectMeta": {
+    "searchSourceJSON": "{\"index\":\"66ee7900-15d6-11e9-91b7-85b94b9c37ae\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+  }
+}
